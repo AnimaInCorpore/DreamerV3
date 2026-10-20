@@ -9,7 +9,16 @@ The intended later application is telemetry exploration for
 `C:\Arbeit\F030Arcade-private\third_party\jsm68kdisassembler`. See
 [the integration notes](docs/telemetry-integration.md) for the inspected RAM/action
 interface, native Windows transport work, archive exploration, and coverage
-validation requirements. The arcade project has not been modified.
+validation requirements. The native adapters and exploration runner now live
+in that arcade repository.
+
+The first arcade milestone is [Final Fight exploration and checked Hatari replay](docs/exploration-and-replay.md),
+judged by useful coverage gained and reproducible port behavior rather than
+Dreamer's predicted reward.
+
+The retained opening-stage branch now passes 70 exact game-state checks in
+Hatari on two independent replays. This does not demonstrate a full-game
+playthrough; see the roadmap's implementation update for scope and evidence.
 
 ## Verified learning
 

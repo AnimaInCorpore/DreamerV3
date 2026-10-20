@@ -2,7 +2,13 @@
 
 Target: `C:\Arbeit\F030Arcade-private`, particularly
 `third_party/jsm68kdisassembler`. This document records an integration direction;
-no files in that project were modified and no emulator was launched.
+the initial inspection itself modified no arcade files and launched no emulator.
+Implementation has since proceeded in F030Arcade-private; see the roadmap's
+implementation update for measured coverage and replay results.
+
+The [exploration and replay roadmap](exploration-and-replay.md) defines the
+first Final Fight milestone, implementation priorities, and acceptance gates
+for useful telemetry and checked Hatari replay.
 
 ## Existing interface inspected on 2026-10-20
 
