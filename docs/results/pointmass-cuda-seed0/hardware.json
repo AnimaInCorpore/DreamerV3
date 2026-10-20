@@ -1,0 +1,7 @@
+{
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5090 Laptop GPU",
+  "parameters": 595764
+}

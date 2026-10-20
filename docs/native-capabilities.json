@@ -1,0 +1,28 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\msys64\\opt\\dreamerv3-python\\python.exe",
+  "platform": "win32",
+  "architecture": "win-amd64",
+  "system": "Windows-11-10.0.26300-SP0",
+  "torch": "2.8.0+cu128",
+  "cuda_runtime": "12.8",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 5090 Laptop GPU",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "vram_bytes": 25622413312,
+  "free_vram_bytes": 22734176256,
+  "cuda_matrix_test": 264.8039245605469,
+  "pytorch_architectures": [
+    "sm_61",
+    "sm_70",
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ]
+}

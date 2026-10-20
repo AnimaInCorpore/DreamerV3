@@ -1,0 +1,4 @@
+# Native Windows CPython; install torch from the cu128 wheel index first.
+torch==2.8.0
+numpy==2.2.6
+gymnasium==1.2.1
