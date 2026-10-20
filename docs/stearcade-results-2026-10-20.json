@@ -1,0 +1,580 @@
+{
+  "runs": [
+    {
+      "run": "stearcade-dkong-natural",
+      "discovery": {
+        "game": "dkong",
+        "assisted": false,
+        "ticks": 22200,
+        "decisions": 1800,
+        "updates": 434,
+        "seconds": 282.3,
+        "stage_bytes": [
+          1
+        ],
+        "lives_bytes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "gameplay_lives_observed": true,
+        "transitions": [],
+        "anomalies": [],
+        "complete_playability_verified": false,
+        "sound_tested": false,
+        "render_equivalence_tested": false
+      },
+      "replay": {
+        "ticks": 22200,
+        "checked": 185,
+        "mismatch": null,
+        "passed": true
+      },
+      "manifest": {
+        "args": {
+          "game": "dkong",
+          "out": "runs\\stearcade-dkong-natural",
+          "decisions": 1800,
+          "seed": 0,
+          "assist": false
+        },
+        "hatari": "C:\\Arbeit\\F030Arcade-private\\third_party\\hatari\\build-ucrt64-merge\\src\\hatari.exe",
+        "hatari_sha256": "f113a3853fd993cac459cb672748f1c20c59ee4ac370501f49d5a6597cbf1796",
+        "tos_sha256": "bcf89ce4e897c848f819b2227987ce754fa37994024d9f39a10ceb3bc91c999d",
+        "program_sha256": "891c50a0c0ef5f4f4d63f426b581d4c37d3c3cbb10f8f7e87579c0e1bee92b4f",
+        "ste_revision": "b30220ecc6f56ada6e1c88a9b20d2d904ebf3bb8",
+        "private_source_sha256": "c2802d6f959d0ec57e227994048ba43ebd9891916d4bdc25d06b889635cb50be",
+        "profile": {
+          "game": "dkong",
+          "set": "dkong",
+          "boot": 600,
+          "offset": 0,
+          "coin": 400,
+          "start": 450,
+          "system_idle": 0,
+          "p1_idle": 0,
+          "coin_mask": 128,
+          "start_mask": 4,
+          "start_source": "system",
+          "high_system": true,
+          "high_p1": true,
+          "buttons": [
+            16
+          ],
+          "directions": [
+            1,
+            2,
+            8,
+            4
+          ],
+          "legacy": false,
+          "cheats": [],
+          "ram": [
+            [
+              24576,
+              3072,
+              "z80_block+$6000"
+            ]
+          ],
+          "rom": [
+            [
+              0,
+              24575
+            ]
+          ]
+        },
+        "note": "Instrumented timing/input path; sound disabled; no full-game or visual-equivalence claim."
+      }
+    },
+    {
+      "run": "stearcade-dkong-assisted",
+      "discovery": {
+        "game": "dkong",
+        "assisted": true,
+        "ticks": 22200,
+        "decisions": 1800,
+        "updates": 434,
+        "seconds": 309.8,
+        "stage_bytes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "lives_bytes": [
+          5,
+          6
+        ],
+        "gameplay_lives_observed": true,
+        "transitions": [
+          [
+            4812,
+            1,
+            2
+          ],
+          [
+            9612,
+            2,
+            3
+          ],
+          [
+            14412,
+            3,
+            4
+          ],
+          [
+            19212,
+            4,
+            1
+          ]
+        ],
+        "anomalies": [],
+        "complete_playability_verified": false,
+        "sound_tested": false,
+        "render_equivalence_tested": false
+      },
+      "replay": {
+        "ticks": 22200,
+        "checked": 185,
+        "mismatch": null,
+        "passed": true
+      },
+      "manifest": {
+        "args": {
+          "game": "dkong",
+          "out": "runs\\stearcade-dkong-assisted",
+          "decisions": 1800,
+          "seed": 0,
+          "assist": true
+        },
+        "hatari": "C:\\Arbeit\\F030Arcade-private\\third_party\\hatari\\build-ucrt64-merge\\src\\hatari.exe",
+        "hatari_sha256": "f113a3853fd993cac459cb672748f1c20c59ee4ac370501f49d5a6597cbf1796",
+        "tos_sha256": "bcf89ce4e897c848f819b2227987ce754fa37994024d9f39a10ceb3bc91c999d",
+        "program_sha256": "891c50a0c0ef5f4f4d63f426b581d4c37d3c3cbb10f8f7e87579c0e1bee92b4f",
+        "ste_revision": "b30220ecc6f56ada6e1c88a9b20d2d904ebf3bb8",
+        "private_source_sha256": "c2802d6f959d0ec57e227994048ba43ebd9891916d4bdc25d06b889635cb50be",
+        "profile": {
+          "game": "dkong",
+          "set": "dkong",
+          "boot": 600,
+          "offset": 0,
+          "coin": 400,
+          "start": 450,
+          "system_idle": 0,
+          "p1_idle": 0,
+          "coin_mask": 128,
+          "start_mask": 4,
+          "start_source": "system",
+          "high_system": true,
+          "high_p1": true,
+          "buttons": [
+            16
+          ],
+          "directions": [
+            1,
+            2,
+            8,
+            4
+          ],
+          "legacy": false,
+          "cheats": [],
+          "ram": [
+            [
+              24576,
+              3072,
+              "z80_block+$6000"
+            ]
+          ],
+          "rom": [
+            [
+              0,
+              24575
+            ]
+          ]
+        },
+        "note": "Instrumented timing/input path; sound disabled; no full-game or visual-equivalence claim."
+      }
+    },
+    {
+      "run": "stearcade-1942-natural",
+      "discovery": {
+        "game": "1942",
+        "assisted": false,
+        "ticks": 22600,
+        "decisions": 1800,
+        "updates": 434,
+        "seconds": 305.0,
+        "stage_bytes": [
+          0
+        ],
+        "lives_bytes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "gameplay_lives_observed": true,
+        "transitions": [],
+        "anomalies": [],
+        "complete_playability_verified": false,
+        "sound_tested": false,
+        "render_equivalence_tested": false
+      },
+      "replay": {
+        "ticks": 22600,
+        "checked": 188,
+        "mismatch": null,
+        "passed": true
+      },
+      "manifest": {
+        "args": {
+          "game": "1942",
+          "out": "runs\\stearcade-1942-natural",
+          "decisions": 1800,
+          "seed": 0,
+          "assist": false
+        },
+        "hatari": "C:\\Arbeit\\F030Arcade-private\\third_party\\hatari\\build-ucrt64-merge\\src\\hatari.exe",
+        "hatari_sha256": "f113a3853fd993cac459cb672748f1c20c59ee4ac370501f49d5a6597cbf1796",
+        "tos_sha256": "bcf89ce4e897c848f819b2227987ce754fa37994024d9f39a10ceb3bc91c999d",
+        "program_sha256": "3a3610d11c862f570c7f6721071adf80c9b8d0bfa76a42c56c6b331e275c0907",
+        "ste_revision": "b30220ecc6f56ada6e1c88a9b20d2d904ebf3bb8",
+        "private_source_sha256": "0a300f189598c165a168135896e19c9b458d69e2003d697de1e05a82d8d64107",
+        "profile": {
+          "game": "1942",
+          "set": "1942",
+          "boot": 1000,
+          "offset": 0,
+          "coin": 900,
+          "start": 940,
+          "system_idle": 255,
+          "p1_idle": 255,
+          "coin_mask": 128,
+          "start_mask": 1,
+          "start_source": "system",
+          "high_system": false,
+          "high_p1": false,
+          "buttons": [
+            16,
+            32
+          ],
+          "directions": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "legacy": false,
+          "cheats": [],
+          "ram": [
+            [
+              57344,
+              4096,
+              "g_block+$6000"
+            ]
+          ],
+          "rom": [
+            [
+              0,
+              49151
+            ]
+          ]
+        },
+        "note": "Instrumented timing/input path; sound disabled; no full-game or visual-equivalence claim."
+      }
+    },
+    {
+      "run": "stearcade-1942-assisted",
+      "discovery": {
+        "game": "1942",
+        "assisted": true,
+        "ticks": 41649,
+        "decisions": 3387,
+        "updates": 831,
+        "seconds": 588.7,
+        "stage_bytes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "lives_bytes": [
+          6
+        ],
+        "gameplay_lives_observed": true,
+        "transitions": [
+          [
+            2488,
+            0,
+            1
+          ],
+          [
+            3664,
+            1,
+            2
+          ],
+          [
+            4888,
+            2,
+            3
+          ],
+          [
+            6124,
+            3,
+            4
+          ],
+          [
+            7336,
+            4,
+            5
+          ],
+          [
+            8464,
+            5,
+            6
+          ],
+          [
+            9664,
+            6,
+            7
+          ],
+          [
+            10864,
+            7,
+            8
+          ],
+          [
+            12064,
+            8,
+            9
+          ],
+          [
+            13288,
+            9,
+            10
+          ],
+          [
+            14488,
+            10,
+            11
+          ],
+          [
+            15664,
+            11,
+            12
+          ],
+          [
+            17272,
+            12,
+            13
+          ],
+          [
+            18304,
+            13,
+            14
+          ],
+          [
+            20740,
+            14,
+            15
+          ],
+          [
+            21772,
+            15,
+            16
+          ],
+          [
+            22876,
+            16,
+            17
+          ],
+          [
+            24088,
+            17,
+            18
+          ],
+          [
+            25264,
+            18,
+            19
+          ],
+          [
+            26452,
+            19,
+            20
+          ],
+          [
+            27676,
+            20,
+            21
+          ],
+          [
+            28864,
+            21,
+            22
+          ],
+          [
+            30064,
+            22,
+            23
+          ],
+          [
+            31264,
+            23,
+            24
+          ],
+          [
+            32464,
+            24,
+            25
+          ],
+          [
+            33676,
+            25,
+            26
+          ],
+          [
+            34864,
+            26,
+            27
+          ],
+          [
+            36076,
+            27,
+            28
+          ],
+          [
+            37264,
+            28,
+            29
+          ],
+          [
+            38464,
+            29,
+            30
+          ],
+          [
+            39988,
+            30,
+            31
+          ],
+          [
+            41008,
+            31,
+            32
+          ]
+        ],
+        "anomalies": [
+          {
+            "kind": "exception",
+            "tick": 41649,
+            "message": "Closed()"
+          }
+        ],
+        "complete_playability_verified": false,
+        "sound_tested": false,
+        "render_equivalence_tested": false
+      },
+      "replay": {
+        "ticks": 41649,
+        "expected_ticks": 41649,
+        "checked": 347,
+        "mismatch": null,
+        "failure": "Closed()",
+        "passed": false,
+        "same_crash_report": true,
+        "reproduced_failure": true,
+        "crash": "0063 002E6486 000188E4\r\n00000063 0C0A0200 EF7EEF68 EFC370F2 0000A29F 00000002 00012300 0003C9C0 0014E1E0 0013CC60 FFFFE700 000198B0 000F61E0 0013D148 0013E1E0 \r\n0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 \r\n03D0\r\n",
+        "evidence": "Replay reached the same terminal gate and identical crash report; any earlier sampled RAM mismatch would have stopped replay and written observed.bin.",
+        "report_origin": "Forensic report collected after replay using the first harness revision; later revisions write failures directly."
+      },
+      "manifest": {
+        "args": {
+          "game": "1942",
+          "out": "runs\\stearcade-1942-assisted",
+          "decisions": 4000,
+          "seed": 0,
+          "assist": true
+        },
+        "hatari": "C:\\Arbeit\\F030Arcade-private\\third_party\\hatari\\build-ucrt64-merge\\src\\hatari.exe",
+        "hatari_sha256": "f113a3853fd993cac459cb672748f1c20c59ee4ac370501f49d5a6597cbf1796",
+        "tos_sha256": "bcf89ce4e897c848f819b2227987ce754fa37994024d9f39a10ceb3bc91c999d",
+        "program_sha256": "3a3610d11c862f570c7f6721071adf80c9b8d0bfa76a42c56c6b331e275c0907",
+        "ste_revision": "b30220ecc6f56ada6e1c88a9b20d2d904ebf3bb8",
+        "private_source_sha256": "0a300f189598c165a168135896e19c9b458d69e2003d697de1e05a82d8d64107",
+        "profile": {
+          "game": "1942",
+          "set": "1942",
+          "boot": 1000,
+          "offset": 0,
+          "coin": 900,
+          "start": 940,
+          "system_idle": 255,
+          "p1_idle": 255,
+          "coin_mask": 128,
+          "start_mask": 1,
+          "start_source": "system",
+          "high_system": false,
+          "high_p1": false,
+          "buttons": [
+            16,
+            32
+          ],
+          "directions": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "legacy": false,
+          "cheats": [],
+          "ram": [
+            [
+              57344,
+              4096,
+              "g_block+$6000"
+            ]
+          ],
+          "rom": [
+            [
+              0,
+              49151
+            ]
+          ]
+        },
+        "note": "Instrumented timing/input path; sound disabled; no full-game or visual-equivalence claim."
+      }
+    }
+  ],
+  "complete_playability_verified": false
+}

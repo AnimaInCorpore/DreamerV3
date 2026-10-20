@@ -35,6 +35,23 @@ for useful telemetry and checked Hatari replay.
 These vector observations and categorical actions fit the current Dreamer
 network interface. A visual world model is not a prerequisite for this route.
 
+## Closed-loop Hatari (Falcon port) on Windows, 2026-10-20
+
+Windows Hatari has no command FIFO or socket, but its debugger `parse` command
+opens files with `fopen()`. So `parse //./pipe/<name>`, run from a per-tick
+breakpoint, blocks the emulator until a Python named-pipe server answers. That
+gives lockstep observe/act/train steps and frame-exact replays. The method is
+documented in the arcade repository's `DEBUGGING.md` ("Closed-loop (lockstep)
+control of Windows Hatari") and implemented in
+`scripts/exploration/hatari_live.py`.
+
+Its first use is `games/snowbros/tools/dreamer_play.py`. That run had 12 Hatari
+instances, Agent/Replay used directly, and the GPU update overlapped with
+emulation. In a 75-minute playtest it started all 50 floors and cleared 34
+distinct floor transitions, with no hangs or stalls. Results and limits are in
+that game's `PROGRESS.md`. This was a playtest, not a coverage comparison, and
+it makes no claim about the acceptance gates below.
+
 ## Integration steps
 
 1. Build a small environment adapter that owns MAME processes, exposes the

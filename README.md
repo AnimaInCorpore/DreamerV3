@@ -20,6 +20,9 @@ The retained opening-stage branch now passes 70 exact game-state checks in
 Hatari on two independent replays. This does not demonstrate a full-game
 playthrough; see the roadmap's implementation update for scope and evidence.
 
+For direct Dreamer exploration of STEArcade's Donkey Kong and 1942 in Windows
+Hatari, see [the playtest workflow and its verification limits](docs/stearcade-playtesting.md).
+
 ## Verified learning
 
 On this machine, the CUDA-trained point-mass agent reached **94.25/100**, versus
