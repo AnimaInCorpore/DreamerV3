@@ -35,6 +35,30 @@ excluded from Git.
 
 ## Installation
 
+### macOS / Apple Silicon
+
+Use an installed Python 3.11 (for example Homebrew's `python@3.11`). The setup
+creates a project-local `.venv` and installs the pinned macOS packages; it does
+not install CUDA or change the system Python. Override the interpreter with
+`DREAMERV3_PYTHON=/path/to/python` if needed.
+
+```bash
+bash scripts/setup.sh
+bash scripts/test.sh
+bash scripts/run.sh --task cartpole --device cpu --hidden 64 --deter 64 \
+  --threads 1 --envs 4 --batch 8 --length 16 --horizon 8 \
+  --warmup 256 --capacity 4096 --train-every 4 --steps 2048 \
+  --eval-every 2048 --eval-episodes 3 --logdir runs/mac-cpu-smoke
+```
+
+This short run checks training and checkpoint output; it does not require or
+establish learned control. Use the longer CartPole recipe below with
+`--require-learning` for that check. CPU is the tested Mac path; MPS is not
+validated here. Launch scripts prefer `.venv`, retain the native Windows
+runtime fallback, and accept `DREAMERV3_PYTHON` as an explicit override.
+
+### Native Windows
+
 From an MSYS2 shell:
 
 ```bash
